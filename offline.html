@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline | Portofolio Deriel Chaerahman</title>
+
+    <!-- PWA meta & icons -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#0a84ff">
+    <link rel="icon" type="image/png" sizes="192x192" href="/img/icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/img/icon-512x512.png">
+    <link rel="apple-touch-icon" href="/img/icon-512x512.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Deriel Portfolio">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fb;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 400px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+
+        h1 {
+            color: #0a84ff;
+        }
+
+        button {
+            background-color: #0a84ff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background-color: #0066cc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>⚠️ Anda Sedang Offline</h1>
+        <p>Koneksi internet terputus<br>
+            eriksa jaringan Anda dan coba lagi.</p>
+        <button onclick="window.location.reload()">🔄 Coba Lagi</button>
+    </div>
+</body>
+
+</html>
